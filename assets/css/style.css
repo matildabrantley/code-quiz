@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+p {
+    font-size: 22px;
+}
+
+button {
+    font-size: 22px;
+    color: white;
+    background-color: navy;
+    border-radius: 10px;
+    min-width: 50px;
+    margin: 5px;
+}
+
+button:hover {
+    filter: brightness(150%);
+}
+
+.choice-button {
+    display: block;
+}
