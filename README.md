@@ -4,7 +4,10 @@
 * Class **Question** builds multiple choice question objects with correct answer. 
     * Method displayQuestion changes main-text (h1) to this question text, 
     shows multiple choice buttons and adds event listeners to those buttons.
-    * Method answerQuestion is passed to button click events. 
+    * Method answerQuestion is passed to button click events.
+* Functions startQuiz and endQuiz 
+    * Styles updated properly
+    * startQuiz starts timer, endQuiz stops it
 
 ## User Story
 
