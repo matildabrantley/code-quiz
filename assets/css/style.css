@@ -3,6 +3,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 main {
     position: fixed;
     top: 20%;
@@ -25,7 +29,7 @@ button {
     border-radius: 10px;
     min-width: 50px;
     margin: 5px;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -37,8 +41,14 @@ button:hover {
     display: block;
 }
 
-h3 {
+#highscores {
     position: fixed;
-    top: 5%;
-    right: 5%;
+    top: 1%;
+    left: 1%;
+}
+
+#score {
+    position: fixed;
+    top: 1%;
+    right: 1%;
 }
