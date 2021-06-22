@@ -107,6 +107,7 @@ ol li:hover {
 }
 
 #initials-form {
+    min-height: 2vw;
     font-size: 2vw;
     display: none;
 }
