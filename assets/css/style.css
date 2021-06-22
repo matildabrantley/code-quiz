@@ -20,7 +20,7 @@ main h1 {
 }
 
 main p {
-    font-size: 1vw;
+    font-size: 2vh;
 }
 
 #question-box {
@@ -28,7 +28,7 @@ main p {
 }
 
 button {
-    font-size: 1vw;
+    font-size: 2vw;
     color: white;
     background-color: navy;
     border-radius: 10px;
@@ -106,7 +106,7 @@ ol li:hover {
 }
 
 #initials-form {
-    font-size: 1vw;
+    font-size: 2vw;
     display: none;
 }
 
@@ -120,5 +120,5 @@ ol li:hover {
     position: relative;
     text-align: left;
     font-style: italic;
-    font-size: 1vw;
+    font-size: 2vw;
 }

@@ -94,7 +94,7 @@ class Question {
 //start quiz with timer, reset questions and score
 function startQuiz() {
     main.style.left = "30%";
-    mainText.style.fontSize = "2vw";
+    mainText.style.fontSize = "3vw";
     mainText.style.textAlign = "left";
     document.getElementById("annoucement").textContent = "";
     startButton.style.display = "none"; //simply hide start button
