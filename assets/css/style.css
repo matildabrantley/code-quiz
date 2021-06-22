@@ -15,7 +15,7 @@ main {
     margin-right: 20%;
 }
 
-main h1 {
+#main-text {
     font-size: 4vw;
 }
 
@@ -133,7 +133,7 @@ ol li:hover {
     }
 
     #main-text {
-        font-size: 9vw;
+        font-size: 8vw;
     }
 
     main p {

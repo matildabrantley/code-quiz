@@ -152,6 +152,7 @@ function goBack() {
     document.getElementById("annoucement").textContent = "Try to answer the following code-related questions within" + 
     "the time limit. Keep in mind that incorrect answers will penalize your time score by ten seconds.";
     originalStyles(); //bring back original css styles 
+    scroll(0,0);
 }
 
 function clearHighScores() {
