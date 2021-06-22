@@ -1,7 +1,7 @@
 # Homework 4: Code Quiz
 #### By Matilda Brantley 
 
-[Live GitHub Page](https://matildabrantley.github.io/homework3-password-generator/)
+[Live GitHub Page](https://matildabrantley.github.io/homework4-code-quiz/)
 ## Features
 * Class **Question** builds multiple choice question objects with correct answer. 
     * Method displayQuestion changes main-text (h1) to this question text, 
