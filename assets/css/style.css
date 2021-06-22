@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ main h1 {
 }
 
 main p {
-    font-size: 22px;
+    font-size: 1vw;
 }
 
 #question-box {
@@ -28,7 +28,7 @@ main p {
 }
 
 button {
-    font-size: 22px;
+    font-size: 1vw;
     color: white;
     background-color: navy;
     border-radius: 10px;
@@ -46,18 +46,67 @@ button:hover {
     display: block;
 }
 
+.final-menu {
+    display: none;
+}
+
 #high-scores {
     position: fixed;
     top: 1%;
     left: 1%;
 }
 
+#ordered-scores-list {
+    display: none;
+    border-radius: 10px;
+    background: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: solid blue;
+}
+ol li {
+    font-size: 0.8vw;
+    border-radius: 10px;
+    background: rgb(100, 100, 251);
+    border: solid rgb(3, 3, 211);
+    padding: 10px;
+    margin: 2px;
+  }
+
+ol li:nth-child(odd) { 
+    background:navy; 
+    border: solid rgb(70, 70, 255);
+    color: white;
+}
+
+ol li:first-child { 
+    background:rgb(0, 0, 95);
+    margin-bottom: 5px;
+    border: solid blue;
+    font-size: 0.9vw;
+}
+
+ol li:first-child:after { 
+    content: "💪";
+}
+
+ol li:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 1.1vw; 
+    filter: brightness(150%);
+}
+
+
 #view-scores:hover {
   color: blue;  
 }
 
 #initials-form {
-    font-size: 20px;
+    font-size: 1vw;
     display: none;
 }
 
@@ -71,5 +120,5 @@ button:hover {
     position: relative;
     text-align: left;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1vw;
 }
