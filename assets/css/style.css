@@ -60,6 +60,7 @@ button:hover {
     display: none;
     border-radius: 10px;
     background: lightskyblue;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -140,7 +141,7 @@ ol li:hover {
     }
 
     button {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     #high-scores {
@@ -148,7 +149,11 @@ ol li:hover {
         top: 60%;
     }
 
-   ol li {
+    ol {
+        padding-left: 15px;
+    }
+
+    ol li {
         font-size: 1.5vw;
         padding: 3px;
     }
