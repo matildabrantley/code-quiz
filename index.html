@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="body">
     <main>
-        <h1 id="main-text">Coding Quiz Challenge</h1>
-        <p id="annoucement">Try to answer the following code-related questions within the time limit.
-            Keep in mind that incorrect answers will penalize your time score by ten seconds.
-        </p>
-        <button id="start">Start Quiz</button>
+        <div id="question-box">
+            <h1 id="main-text">Coding Quiz Challenge</h1>
+            <p id="annoucement">Try to answer the following code-related questions within the time limit.
+                Keep in mind that incorrect answers will penalize your time score by ten seconds.
+            </p>
+            <button id="start">Start Quiz</button>
+            
+            <form id="initials-form">
+                  <label for="email">Enter initials:</label>
+                  <input type="text" name="email" id="initials"/>
+                <button id="submit">Submit</button>
+            </form>
+
+        </div>
+        <p id="response"></p>
     </main>
 </body>
-<h3 id="highscores">View High Scores</h3>
+<section id="high-scores">
+    <h3 id="view-scores">View High Scores</h3>
+</section>
 <h3 id="score">100</h3>
 <script src="assets/js/script.js"></script>
 </html>

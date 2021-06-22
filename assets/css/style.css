@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: white;
+    /* background-color: white; */
+    background-image: radial-gradient(circle, white,white,red 200%);
 }
 
 main {
@@ -20,6 +21,10 @@ main h1 {
 
 main p {
     font-size: 22px;
+}
+
+#question-box {
+    padding: 10px;
 }
 
 button {
@@ -41,14 +46,30 @@ button:hover {
     display: block;
 }
 
-#highscores {
+#high-scores {
     position: fixed;
     top: 1%;
     left: 1%;
+}
+
+#view-scores:hover {
+  color: blue;  
+}
+
+#initials-form {
+    font-size: 20px;
+    display: none;
 }
 
 #score {
     position: fixed;
     top: 1%;
     right: 1%;
+}
+
+#response {
+    position: relative;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
 }
