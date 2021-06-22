@@ -28,7 +28,7 @@ main p {
 }
 
 button {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
     background-color: navy;
     border-radius: 10px;
@@ -122,3 +122,45 @@ ol li:hover {
     font-style: italic;
     font-size: 2vw;
 }
+
+@media only screen and (max-width: 768px) {
+    main {
+        position: fixed;
+        top: 10%;
+        left: 20%;
+        margin-right: 20%;
+    }
+
+    #main-text {
+        font-size: 7vw;
+    }
+
+    main p {
+        font-size: 3vw;
+    }
+
+    button {
+        font-size: 3vw;
+    }
+    
+    #high-scores {
+        font-size: 2vw;
+        top: 60%;
+    }
+
+   ol li {
+        font-size: 1.5vw;
+        padding: 3px;
+    }
+
+    ol li:first-child { 
+        background:rgb(0, 0, 95);
+        margin-bottom: 5px;
+        border: solid blue;
+        font-size: 2vw;
+    }
+
+    ol li:hover {
+        font-size: 2.5vw;
+    }
+  }
