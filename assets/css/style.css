@@ -93,6 +93,7 @@ ol li:first-child:after {
 }
 
 ol li:hover {
+    padding-left: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top:10px;

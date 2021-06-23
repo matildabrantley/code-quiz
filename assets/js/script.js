@@ -258,7 +258,7 @@ function createQuestions () {
     questions.push(new Question("Bootstrap is a framework for which language?", ["JavaScript", "C++", "CSS", "PHP"], 2));
     questions.push(new Question("Where is a webpage's localStorage held?", ["Client-side", "Server-side", "Both", "Neither"], 0));
     questions.push(new Question("Which data type is used to switch values between only two states?", ["State", "Boolean", "Object", "On-Off"], 1));
-    questions.push(new Question("What JavaScript function returns an HTML element by its ID?", ["getId()", "findElementById()", "importElement()", "getElementById()"], 3));
+    questions.push(new Question("The main purpose of React.js is to create _____?", ["Mobile Apps", "User Interfaces", "Databases", "M.L. Models"], 1));
     questions.push(new Question("What JavaScript syntax separates multiple name:value pairs within objects?", [",", ";", "!", "=", "#", "$"], 0));
     questions.push(new Question("Which JavaScript keyword refers to the (closest) object it belongs to?", ["Let", "Home", "Here", "This"], 3));
     questions.push(new Question("Which JavaScript keyword makes a template for creating objects (provided a constructor)?", ["function", "template", "construct", "class"], 3));
